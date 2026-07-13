@@ -8,10 +8,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            Tab("Game", systemImage: "gamecontroller") {
+            Tab(Localization.game, systemImage: "gamecontroller") {
                 GameView()
             }
-            Tab("Scoreboard", systemImage: "list.number") {
+            Tab(Localization.scoreboard, systemImage: "list.number") {
                 ScoreboardView()
             }
         }
